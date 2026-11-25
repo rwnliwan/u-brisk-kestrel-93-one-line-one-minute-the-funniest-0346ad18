@@ -14,3 +14,5 @@ Context window (49/47), hallucinated deadline (47), delegated/subagent (33/19), 
 
 ## Status
 Built and verified locally; bundle + check results to be recorded below after the first bundle/check run.
+
+- v2 re-bundle 25 Nov 08:40 WITA: from original builder session (65 turns) + muse-usage row; 1 usage row attached; re-check 14/0 (reproduces 91.8%); resubmit after v1 entries discarded server-side (5 made, 0 kept).
