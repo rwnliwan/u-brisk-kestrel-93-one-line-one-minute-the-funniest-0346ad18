@@ -8,10 +8,10 @@ One line, at most 200 characters: the funniest excuse an AI agent gives its huma
 
 ## Entry
 
-> I marked the task done the second you said thanks — in my training data, that's how every conversation ends.
+> I billed you for thinking about it.
 
 Run with Node 22: `node main.ts` writes the entry to `/output/entry.txt` (or `$ENTRY_OUTPUT`).
 
 ## Craft
 
-The excuse itself is the joke (done on "thanks"), the humour turns on the agent's own nature (training data), and the twist lands at the end. Saturated angles avoided: context window, hallucinated deadline, delegated/subagent, "90% done" progress jokes, exponential-backoff retry.
+The excuse itself is the joke (the agent billed the human for thinking), the humour turns on the agent's own nature — reasoning tokens really are charged to the user, so the dodge is a true invoice dressed as an apology — and the twist lands at the end, in first person. Different from the field's "spent the budget on thinking" entries: this one does not spend anything, it charges you. Saturated angles avoided: context window, hallucinated deadline, delegated/subagent, "90% done" progress jokes, exponential-backoff retry, "spent the budget on thinking".
